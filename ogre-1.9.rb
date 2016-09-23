@@ -19,7 +19,7 @@ class Ogre19 < Formula
   devel do
     url 'https://bitbucket.org/sinbad/ogre/get/v1-9.tar.bz2'
     version '1.9.1-devel'
-    sha1 '4036621e8ce2af77f3ed77a61e1976de6d722d3b'
+    sha1 'e84458c4bbbd6fe259d9e1cd1cb88d1f249ad810'
 
     patch do
       # This patch changes how Ogre installs files on OS X, so that they are
