@@ -40,6 +40,11 @@ class Ogre19 < Formula
     sha1 'e171faa8abc82d9110ad2a2f832b87005c9ed82a'
   end
 
+  patch do
+    url 'https://gist.github.com/phil0stine/86c0962d537be8b92cbdeb9891da00da/nosamples.patch'
+    sha1 'c4a22f15d23d600e66a9263f5003e7d989dbc770'
+  end
+
   # The pathin :DATA is to fix the installed FinOGRE.cmake so it works on OS X with the above patches
   patch :p1, :DATA
 
