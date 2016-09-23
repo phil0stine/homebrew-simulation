@@ -32,8 +32,8 @@ class Ogre19 < Formula
   patch do
     # This patch is to prevent OS X Cocoa windows from going out of scope.
     # Upstream: http://www.ogre3d.org/forums/viewtopic.php?f=2&t=81649
-    url 'https://gist.githubusercontent.com/hgaiser/9ed14de3d776cd34100e/raw/38c7a88cab9067e88a21f1386fbb8ac1aaeed8ac/window.patch'
-    sha1 'c520d0641183bb275a0b29ef6188353bc2ba6217'
+    url 'https://gist.githubusercontent.com/phil0stine/b0981fc94944be7a62eb2a2ef30622a5/raw/4fcca83f098f1a5cab3b099adf2671cee9f0dcfc/window.patch'
+    sha1 '2ad4d893e433c9cee05bd14bca9a199fb8a97a36'
   end
 
   # The pathin :DATA is to fix the installed FinOGRE.cmake so it works on OS X with the above patches
