@@ -36,7 +36,7 @@ class Ogre19 < Formula
 
     patch do
       url 'https://gist.githubusercontent.com/phil0stine/6789700d1df5864426f83695a79e70d2/raw/9c19231705839bda283efaf904a4031692a4563a/fixCGError.patch'
-      sha1 '20102f12ea78682561d50364d29348d580e65610'
+      sha1 '0c843fcc90a1e79e82f1836ed154646a43bc54a2'
     end    
 
 #    patch do
