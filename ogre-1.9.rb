@@ -27,10 +27,10 @@ class Ogre19 < Formula
       url 'https://gist.githubusercontent.com/NikolausDemmel/2b11d1b49b35cd27a102/raw/bf4a4d16020821218f73db0d56aa111ab2fde679/fix-1.9-HEAD.diff'
       sha1 '90bef44c2a821bba3254c011b0aa0f5ecedeb788'
     end
-    patch do
-      url 'https://gist.github.com/scpeters/568f5490a99aa9fc3eb7/raw/881b0f200ac218b7b976ade8f63e3792303c2a5e/ogre_find_freetype.diff'
-      sha1 '0d9b58311b7a3abab0a0f230f45a5d8d1e285039'
-    end
+#    patch do
+#      url 'https://gist.github.com/scpeters/568f5490a99aa9fc3eb7/raw/881b0f200ac218b7b976ade8f63e3792303c2a5e/ogre_find_freetype.diff'
+#      sha1 '0d9b58311b7a3abab0a0f230f45a5d8d1e285039'
+#    end
   end
 
   patch do
