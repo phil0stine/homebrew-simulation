@@ -19,7 +19,7 @@ class Ogre19 < Formula
   devel do
     url 'https://bitbucket.org/sinbad/ogre'
     version '2.1.0'
-    sha1 'dd1c0a27ff76a34d3c0daf7534ab9cd16e399f86'
+    sha1 'dba8d8744331b008081ba1f000d67d56b61a1def'
 #    url 'https://bitbucket.org/sinbad/ogre/get/v1-9.tar.bz2'
 #    version '1.9.1-devel'
 #    sha1 'e84458c4bbbd6fe259d9e1cd1cb88d1f249ad810'
