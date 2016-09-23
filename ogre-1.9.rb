@@ -41,7 +41,7 @@ class Ogre19 < Formula
   end
 
   patch do
-    url 'https://gist.github.com/phil0stine/86c0962d537be8b92cbdeb9891da00da/nosamples.patch'
+    url 'https://gist.githubusercontent.com/phil0stine/86c0962d537be8b92cbdeb9891da00da/raw/7cc34ff42a8bef0cd2f2dca00249fdeed39a0290/nosamples.patch'
     sha1 'c4a22f15d23d600e66a9263f5003e7d989dbc770'
   end
 
