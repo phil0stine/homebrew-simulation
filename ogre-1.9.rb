@@ -4,8 +4,8 @@ class Ogre19 < Formula
   homepage 'http://www.ogre3d.org/'
 
   stable do
-    url 'https://bitbucket.org/sinbad/ogre/get/v1-9-0.tar.gz'
-    version '1.9.0'
+    url 'https://bitbucket.org/sinbad/ogre'
+    version '2.1.0'
     sha1 'dd1c0a27ff76a34d3c0daf7534ab9cd16e399f86'
 
     patch do
