@@ -4,9 +4,9 @@ class Ogre19 < Formula
   homepage 'http://www.ogre3d.org/'
 
   stable do
-    url 'https://bitbucket.org/sinbad/ogre'
-    version '2.1.0'
-    sha1 'dba8d8744331b008081ba1f000d67d56b61a1def'
+    url 'https://bitbucket.org/sinbad/ogre/get/v1-9.tar.bz2'
+    version '1.9.1-devel'
+    sha1 'e84458c4bbbd6fe259d9e1cd1cb88d1f249ad810'
 
     patch do
       # This patch changes how Ogre installs files on OS X, so that they are
@@ -17,12 +17,10 @@ class Ogre19 < Formula
   end
 
   devel do
-    url 'https://bitbucket.org/sinbad/ogre'
-    version '2.1.0'
-    sha1 'dba8d8744331b008081ba1f000d67d56b61a1def'
-#    url 'https://bitbucket.org/sinbad/ogre/get/v1-9.tar.bz2'
-#    version '1.9.1-devel'
-#    sha1 'e84458c4bbbd6fe259d9e1cd1cb88d1f249ad810'
+    url 'https://bitbucket.org/sinbad/ogre/get/v1-9.tar.bz2'
+    version '1.9.1-devel'
+    sha1 'e84458c4bbbd6fe259d9e1cd1cb88d1f249ad810'
+
 
     patch do
       # This patch changes how Ogre installs files on OS X, so that they are
