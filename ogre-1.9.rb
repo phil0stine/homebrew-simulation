@@ -6,7 +6,7 @@ class Ogre19 < Formula
   stable do
     url 'https://bitbucket.org/sinbad/ogre'
     version '2.1.0'
-    sha1 'dd1c0a27ff76a34d3c0daf7534ab9cd16e399f86'
+    sha1 'dba8d8744331b008081ba1f000d67d56b61a1def'
 
     patch do
       # This patch changes how Ogre installs files on OS X, so that they are
