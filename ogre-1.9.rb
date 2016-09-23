@@ -72,6 +72,7 @@ class Ogre19 < Formula
       "-DOGRE_INSTALL_SAMPLES:BOOL=FALSE",
       "-DOGRE_INSTALL_SAMPLES_SOURCE:BOOL=FALSE",
       "-DOIS_INCLUDE_DIR:BOOL=FALSE",
+      "-DCMAKE_CXX_FLAGS:STRING=-stdlib=libc++"
     ]
     cmake_args << "-DOGRE_BUILD_PLUGIN_CG=OFF" if build.without? "cg"
     cmake_args.concat(std_cmake_args)
